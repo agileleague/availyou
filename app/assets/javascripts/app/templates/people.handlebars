@@ -1,5 +1,13 @@
-<h1>People</h1>
-
-<p>Your content here.</p>
-
-{{outlet}}
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>First Name</th>
+    </tr>
+  </thead>
+  <tbody>
+  {{#each people}}
+    {{view App.PersonView personBinding="this"}}
+  {{/each}}
+  </tbody>
+</table>
