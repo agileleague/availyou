@@ -1,3 +1,4 @@
 App.PersonView = Ember.View.extend(
-  templateName: 'person'
-  )
+  tagName: 'tr',
+  templateName: 'app/templates/person'
+)
