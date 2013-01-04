@@ -1,1 +1,0 @@
-Availyou = Ember.Application.create();
