@@ -12,7 +12,9 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require ./vendor/ember-1.0.0-pre.2.min
+//= require ./vendor/handlebars-1.0.0.beta.6
+//= require ./vendor/ember-1.0.0-pre.2
+//= require ./vendor/ember-rest-0.1.1
 //= require_tree ./lib
 //= require app/app
 //= require_tree ./app/models
