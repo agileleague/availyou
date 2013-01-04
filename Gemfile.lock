@@ -39,6 +39,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.4.0)
+    decent_exposure (2.0.1)
     ember-rails (0.8.0)
       active_model_serializers
       execjs (>= 1.2)
@@ -116,6 +117,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
+  decent_exposure
   ember-rails
   haml-rails
   jquery-rails

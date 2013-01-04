@@ -1,5 +1,7 @@
 Availyou::Application.routes.draw do
 
+  resources :people
+
   root to: "main#index"
 
 
